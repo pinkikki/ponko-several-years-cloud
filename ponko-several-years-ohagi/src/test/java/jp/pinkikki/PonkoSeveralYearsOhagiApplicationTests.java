@@ -1,4 +1,4 @@
-package jp.pinkikki.ponkoseveralyearseurekaclient;
+package jp.pinkikki;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class PonkoSeveralYearsEurekaClientApplicationTests {
+public class PonkoSeveralYearsOhagiApplicationTests {
 
 	@Test
 	public void contextLoads() {
