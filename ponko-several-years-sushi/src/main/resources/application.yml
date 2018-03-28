@@ -1,8 +1,5 @@
 server:
   port: 9092
-spring:
-  application:
-    name: man-app
 eureka:
   client:
     service-url:
@@ -10,3 +7,9 @@ eureka:
   instance:
     leaseRenewalIntervalInSeconds: 1
     leaseExpirationDurationInSeconds: 2
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,env
+

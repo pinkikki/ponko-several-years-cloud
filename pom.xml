@@ -24,6 +24,7 @@
 
     <modules>
         <module>ponko-several-years-eureka-server</module>
+        <module>ponko-several-years-config-server</module>
         <module>ponko-several-years-sushi</module>
         <module>ponko-several-years-ohagi</module>
         <module>ponko-several-years-mozuku</module>

@@ -2,7 +2,10 @@ server:
   port: 9093
 spring:
   application:
-    name: woman-app
+    name: ohagi-app
+  cloud:
+      config:
+        uri: http://localhost:9099
 eureka:
   client:
     service-url:

@@ -10,18 +10,17 @@
 		<relativePath>../</relativePath>
 	</parent>
 
-	<groupId>jp.pinkikki</groupId>
-	<artifactId>ponko-several-years-eureka-server</artifactId>
+	<artifactId>ponko-several-years-config-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>ponko-several-years-eureka-server</name>
-	<description>eureka server for ponko-several-years-cloud</description>
+	<name>ponko-several-years-config-server</name>
+	<description>config server for ponko-several-years-cloud</description>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+			<artifactId>spring-cloud-config-server</artifactId>
 		</dependency>
 
 		<dependency>
@@ -39,6 +38,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
 
 </project>

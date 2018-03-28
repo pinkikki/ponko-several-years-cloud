@@ -15,7 +15,7 @@
 	<packaging>jar</packaging>
 
 	<name>ponko-several-years-ohagi</name>
-	<description>Demo project for Spring Boot</description>
+	<description>app-ohagi for ponko-several-years-cloud</description>
 
 	<dependencies>
 		<dependency>
@@ -26,6 +26,16 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
 
 		<dependency>

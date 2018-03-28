@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: sushi-app
+  cloud:
+    config:
+      uri: http://localhost:9099
+      label: master
